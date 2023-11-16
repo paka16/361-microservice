@@ -18,15 +18,43 @@ python client.py
 3. The client will receive a result in dictionary format using the pickle module. 
 
 ## 2C. UML SEQUENCE DIAGRAM:
+<br>
+
+![alt text](readme_imgs/uml sequence.PNG)
 
 ## EXAMPLES OF RUNNING MICROSERVICE:
-
 ### SUCCESSFUL RUN:
+Single Run:
+<br>
+![alt text](readme_imgs/successful_run.PNG)
+
+Multiple Runs:
+<br>
+![alt text](readme_imgs/multiple_calls.PNG)
+
 ### TICKER NAME TOO LONG ERROR:
+<br>
+
+![alt text](readme_imgs/invalid_ticker.PNG)
+
 ### INVALID TICKER ERROR:
+<br>
+
+![alt text](readme_imgs/too_long_ticker.PNG)
 
 ### API LIMIT ERROR: 
 yfinance data will be returned but the api data will show an error message. 
+<br>
+![alt text](readme_imgs/api_limit.PNG)
+
+### CLOSE MICROSERVICE
+server.py
+<br>
+![alt text](readme_imgs/server_close.PNG)
+
+client.py
+<br>
+![alt text](readme_imgs/client_close.PNG)
 
 
 
