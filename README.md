@@ -35,9 +35,7 @@ API_KEY = <API_KEY>
 4. The client will receive a result in dictionary format using the pickle module. 
 
 ## 2C. UML SEQUENCE DIAGRAM:
-<br>
-
-![alt text](readme_imgs/uml sequence.PNG)
+![alt text](readme_imgs/uml%20sequence.PNG)
 
 ## EXAMPLES OF RUNNING MICROSERVICE:
 ### SUCCESSFUL RUN:
