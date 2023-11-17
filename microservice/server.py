@@ -1,8 +1,6 @@
-# echo-server.py
-
 # API
 # website: https://www.alphavantage.co/ 
-API_KEY = 'N8P69WL8ZKN99ZS2'
+API_KEY = <YOUR_API_KEY>
 
 # MODULES:
 import requests
@@ -99,8 +97,4 @@ print("DEBUG: MICROSERVICE SERVER: OFF")
     
     
 
-############################################################################
-# data = "IBM"
-# history = yf.download(data, period='5d')
-# print(history)
             
